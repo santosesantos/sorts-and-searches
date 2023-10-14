@@ -230,10 +230,10 @@ fun printTreePreOrder(root: AVLNode?) {
 fun main() {
     println("Insertion of node: 1 => ${insertNode(1)}")
     println("Insertion of node: 2 => ${insertNode(2)}")
-    println("Insertion of node: 3 => ${insertNode(5)}")
+    println("Insertion of node: 5 => ${insertNode(5)}")
     println("Insertion of node: 3 => ${insertNode(3)}")
     println("Insertion of node: 4 => ${insertNode(4)}")
-    println("Insertion of node: 4 => ${insertNode(6)}")
+    println("Insertion of node: 6 => ${insertNode(6)}")
     println("----------")
     print("[")
     printTree(root)
